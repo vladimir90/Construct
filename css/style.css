@@ -1,0 +1,179 @@
+html, body, h1, h2, h3, h4, h5, h6, p, a, ol, ul {
+  margin: 0;
+  padding: 0; }
+
+@keyframes rotate {
+  100% {
+    transform: rotate(680deg); } }
+@-webkit-keyframes rotate {
+  100% {
+    transform: rotate(680deg); } }
+@keyframes pulse {
+  0% {
+    transform: scale(1); }
+  50% {
+    transform: scale(1.4); }
+  100% {
+    transform: scale(1); } }
+div, section, article {
+  box-sizing: border-box; }
+
+/*============SECTION 1============*/
+#section1 li a:hover {
+  color: #000;
+  transition: 0.3s ease-in-out;
+  -webkit-transition: 0.3s ease-in-out; }
+#section1 .navbar {
+  background-color: rgba(255, 255, 255, 0.8);
+  font-family: "Lato Regular", sans-serif;
+  text-transform: uppercase;
+  border-bottom: none; }
+#section1 a {
+  color: #2d3950; }
+#section1 .navbar-brand {
+  padding-top: 10px;
+  padding-bottom: 10px; }
+#section1 .logo {
+  padding: 0;
+  margin-left: 150px;
+  width: 30px;
+  height: 30px; }
+  #section1 .logo img {
+    padding: 0;
+    margin: 0;
+    width: 30px;
+    height: 30px;
+    animation: 4s rotate infinite;
+    -webkit-animation: 4s ease-in-out rotate infinite alternate; }
+
+/*============SECTION 2============*/
+#section2 .item {
+  height: 600px; }
+  #section2 .item img {
+    width: 100%;
+    height: 100%; }
+  #section2 .item .carousel-caption h1 {
+    font-family: "Lato Bold", sans-serif;
+    font-size: 5vw;
+    color: #fff;
+    text-transform: uppercase; }
+  #section2 .item .carousel-caption p {
+    font-family: "Lato Regular", sans-serif;
+    font-size: 20px;
+    color: #fff; }
+  #section2 .item .carousel-caption .btn {
+    margin-top: 50px;
+    background-color: transparent;
+    border-radius: 0;
+    border-top: 1px solid #15a4fa;
+    border-bottom: 1px solid #15a4fa;
+    border-right: none;
+    border-left: none; }
+  #section2 .item .carousel-caption .btn:hover {
+    background-color: #15a4fa;
+    transition: 0.3s ease-in;
+    -webkit-transition: 0.3s ease-in;
+    border-radius: 30px; }
+#section2 .arrow {
+  padding-top: 100px;
+  width: 100px;
+  text-align: center;
+  margin: 0 auto; }
+  #section2 .arrow img {
+    width: 20px; }
+#section2 .arrow:hover {
+  animation: 2s linear pulse infinite; }
+
+@media (max-width: 360px) {
+  .carousel-caption {
+    margin-left: -60px;
+    text-align: center;
+    width: 360px; }
+
+  p {
+    font-size: 20px; } }
+/*===============SECTION 3==================*/
+#section3 {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #f6f9f9; }
+  #section3 h1 {
+    font-family: "Lato Regular", sans-serif; }
+  #section3 p {
+    padding-top: 10px;
+    font-family: "Lato Regular", sans-serif;
+    color: #a7a8a8; }
+
+/*==============SECTION 4====================*/
+#section4 {
+  padding-top: 50px;
+  padding-bottom: 50px; }
+  #section4 i {
+    color: #15a4fa; }
+  #section4 p {
+    color: #a7a8a8;
+    font-family: "Lato Regular", sans-serif; }
+
+/*=============SECTION 5===============*/
+#section5 {
+  padding-bottom: 100px;
+  padding-top: 50px; }
+  #section5 h1 {
+    font-family: "Lato Regular", sans-serif; }
+  #section5 p {
+    font-family: "Lato Regular", sans-serif;
+    color: #a7a8a8;
+    padding-bottom: 50px; }
+  #section5 img {
+    -webkit-filter: grayscale(100%);
+    /* Chrome, Safari, Opera */
+    filter: grayscale(100%); }
+  #section5 img:hover {
+    -webkit-filter: grayscale(1%);
+    /* Chrome, Safari, Opera */
+    filter: grayscale(1%); }
+
+/*=============SECTION 6===============*/
+#section6 {
+  padding-bottom: 100px; }
+  #section6 form {
+    margin-top: 10px;
+    overflow: hidden;
+    width: 40%;
+    margin: 0 auto; }
+    #section6 form #text, #section6 form #mail {
+      margin-bottom: 20px;
+      width: 100%;
+      height: 50px;
+      padding: 10px; }
+    #section6 form #check {
+      width: 30px;
+      margin-right: 10px; }
+    #section6 form #form-btn {
+      margin-top: 50px;
+      background-color: transparent;
+      border-radius: 0;
+      border: 1px solid #15a4fa;
+      padding: 10px 35px 10px 35px;
+      float: right; }
+    #section6 form #form-btn:hover {
+      background-color: #15a4fa;
+      color: #fff;
+      transition: 0.3s linear;
+      -webkit-transition: 0.3s linear;
+      font-weight: 700;
+      border-radius: 30px; }
+    #section6 form textarea {
+      width: 100%;
+      height: 200px;
+      padding: 10px; }
+
+/*==============SECTION 7=============================*/
+#section7 {
+  padding-bottom: 30px;
+  padding-top: 30px;
+  background-color: #f6f9f9; }
+  #section7 img {
+    width: 30px; }
+
+/*# sourceMappingURL=style.css.map */
